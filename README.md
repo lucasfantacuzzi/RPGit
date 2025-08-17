@@ -4,7 +4,7 @@
 
 ## ⚔️ Concept
 
-- **Citadel 🏰** → a central hub/organization where multiple campaigns live.  
+- **Guild 🏰** → a central hub/organization where multiple campaigns live.  
 - **Campaigns 🎯** → represent a project or epic within the citadel.  
 - **Dungeons 🕸️** → repositories inside a campaign, each with its own quests and bosses.  
 - **Bosses 👹** → milestones that need to be defeated (with HP, loot and phases).  
@@ -25,4 +25,5 @@ Ideas, discussions, and pull requests are welcome — open an issue if you’d l
 ## 📜 License
 
 MIT
+
 
