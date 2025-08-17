@@ -53,50 +53,51 @@
 - [ ] Secrets management for CI webhooks
 
 ### API & Extensibility
-[ ] REST API v1 (versioned) for all core entities
-[ ] API tokens (scoped; per-user/per-citadel)
-[ ] Outbound webhooks for RPG events
-[ ] Rules engine (configurable weights: labels → XP/damage modifiers)
-[ ] Plugin hooks (event handler registration)
+- [ ] REST API v1 (versioned) for all core entities
+- [ ] API tokens (scoped; per-user/per-citadel)
+- [ ] Outbound webhooks for RPG events
+- [ ] Rules engine (configurable weights: labels → XP/damage modifiers)
+- [ ] Plugin hooks (event handler registration)
 
 ### Observability & Reliability
-[ ] Structured logging with request IDs
-[ ] Metrics (Prometheus): git ops, events processed, XP awarded, boss HP changes
-[ ] Tracing (OpenTelemetry) around event pipeline
-[ ] Dead-letter queue & replay for failed events
-[ ] Health/ready endpoints
+- [ ] Structured logging with request IDs
+- [ ] Metrics (Prometheus): git ops, events processed, XP awarded, boss HP changes
+- [ ] Tracing (OpenTelemetry) around event pipeline
+- [ ] Dead-letter queue & replay for failed events
+- [ ] Health/ready endpoints
 
 ### Packaging & Ops
-[ ] Docker image (multi-arch) + docker-compose quickstart
-[ ] Helm chart (ingress/TLS, persistence, resources)
-[ ] Config via env/file; sane defaults
-[ ] Backup/restore guide (DB + repos)
-[ ] Zero-downtime DB migrations (up/down)
-[ ] TLS via reverse proxy (Nginx/Caddy) examples
-[ ] Systemd unit (bare-metal install)
+- [ ] Docker image (multi-arch) + docker-compose quickstart
+- [ ] Helm chart (ingress/TLS, persistence, resources)
+- [ ] Config via env/file; sane defaults
+- [ ] Backup/restore guide (DB + repos)
+- [ ] Zero-downtime DB migrations (up/down)
+- [ ] TLS via reverse proxy (Nginx/Caddy) examples
+- [ ] Systemd unit (bare-metal install)
 
 ### Developer Experience & QA
-[ ] Makefile/Taskfile + devcontainer
-[ ] Seed script (demo citadel/campaign/boss/quests)
-[ ] Unit tests for domain services
-[ ] Integration tests (git clone/push; hook → event → XP/HP)
-[ ] E2E smoke tests (Kanban flow; dungeon gating)
-[ ] Load tests for large pushes & many events
-[ ] Linting & formatting (Go + templates)
+- [ ] Makefile/Taskfile + devcontainer
+- [ ] Seed script (demo citadel/campaign/boss/quests)
+- [ ] Unit tests for domain services
+- [ ] Integration tests (git clone/push; hook → event → XP/HP)
+- [ ] E2E smoke tests (Kanban flow; dungeon gating)
+- [ ] Load tests for large pushes & many events
+- [ ] Linting & formatting (Go + templates)
 
 ### UX & Theming
-[ ] Responsive SSR templates (light/dark)
-[ ] Accessible components (a11y basics)
-[ ] Emoji/iconography mapping (Boss/Quest/Dungeon/Tavern)
-[ ] Theme variables (easy re-skin)
-[ ] i18n (EN / pt-BR)
+- [ ] Responsive SSR templates (light/dark)
+- [ ] Accessible components (a11y basics)
+- [ ] Emoji/iconography mapping (Boss/Quest/Dungeon/Tavern)
+- [ ] Theme variables (easy re-skin)
+- [ ] i18n (EN / pt-BR)
 
 ### Docs & Community
-[ ] README quickstart (compose + first repo)
-[ ] ROADMAP.md (this checklist) kept in sync
-[ ] CONTRIBUTING.md (dev setup, style, commit conventions)
-[ ] CODE_OF_CONDUCT.md
-[ ] SECURITY.md (vuln reporting)
-[ ] Changelog & SemVer policy
+- [ ] README quickstart (compose + first repo)
+- [ ] ROADMAP.md (this checklist) kept in sync
+- [ ] CONTRIBUTING.md (dev setup, style, commit conventions)
+- [ ] CODE_OF_CONDUCT.md
+- [ ] SECURITY.md (vuln reporting)
+- [ ] Changelog & SemVer policy
 
-[ ] Example diagrams (mermaid) for Citadel → Campaign → Dungeon → Boss → Quest
+- [ ] Example diagrams (mermaid) for Citadel → Campaign → Dungeon → Boss → Quest
+
