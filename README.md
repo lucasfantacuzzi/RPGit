@@ -4,14 +4,14 @@
 
 ## ⚔️ Concept
 
-- **Citadel 🏰** → the central hub/organization where multiple campaigns live.  
+- **Citadel 🏰** → a central hub/organization where multiple campaigns live.  
 - **Campaigns 🎯** → represent a project or epic within the citadel.  
-- **Dungeons 🕸️** → specific adventures like sprints, pipelines, or feature branches inside a campaign.  
+- **Dungeons 🕸️** → repositories inside a campaign, each with its own quests and bosses.  
 - **Bosses 👹** → milestones that need to be defeated (with HP, loot and phases).  
-- **Quests 📜** → issues that grant XP and deal damage to the boss.  
+- **Quests 📜** → issues and PRs that grant XP and deal damage to the boss.  
 - **Players 🧑‍💻** → each developer chooses a class, gains XP and levels up.  
 - **Party 🧙‍♂️🛡️** → a team of players working together on a campaign.  
-- **Tavern 🍺** → the place where players gather to share knowledge and coordinate — represented by the Kanban board. 
+- **Tavern 🍺** → the Kanban board, where players gather to share knowledge and coordinate.
 
 Pushes, merges and builds become battles against monsters.  
 The party earns XP, loot and badges as the project progresses.
@@ -25,3 +25,4 @@ Ideas, discussions, and pull requests are welcome — open an issue if you’d l
 ## 📜 License
 
 MIT
+
